@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="zkclient:war exploded">
+    <output-path>$PROJECT_DIR$/target/zkclient</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="zkclient" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.apache.hadoop:zookeeper:3.3.1" />
+          <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/zkclient/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="zkclient/web/Web" />
+    </root>
+  </artifact>
+</component>

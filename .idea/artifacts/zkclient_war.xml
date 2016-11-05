@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zkclient:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="zkclient.war">
+      <element id="artifact" artifact-name="zkclient:war exploded" />
+    </root>
+  </artifact>
+</component>
